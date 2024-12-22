@@ -1,0 +1,50 @@
+package com.pkslearning.controller;
+
+import java.util.List;
+
+import org.springframework.http.ResponseEntity;
+import org.springframework.web.bind.annotation.DeleteMapping;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.PutMapping;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+import com.pkslearning.entity.Employee;
+
+@RequestMapping("/api/empcentral")
+@RestController
+public class EmployeeController {
+
+	@GetMapping("/employees")
+	public List[] getEmployeesList()
+	{
+		return "";
+	}
+	
+	@GetMapping("/employee")
+	public Employee getEmployee()
+	{
+		return "";
+	}
+	
+	@PostMapping()
+	public ResponseEntity<?> addEmployee(@RequestBody Employee newemployee)
+	{
+		return "";
+		
+	}
+	
+	@PutMapping()
+	public Employee updateEmployee()
+	{
+		return "";
+	}
+	
+	@DeleteMapping
+	public String removeEmployee()
+	{
+		return "";
+	}
+}

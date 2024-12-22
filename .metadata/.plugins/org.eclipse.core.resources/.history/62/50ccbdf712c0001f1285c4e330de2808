@@ -1,0 +1,25 @@
+package com.pkslearning.entity;
+
+import java.util.Date;
+
+public class Employee {
+
+	
+	private long employeeId;
+	private String name;
+	private long phone;
+	private String gender;
+	private String maritalStatus;
+	private String email;
+	private String address;
+	private String adhar;
+	private String bankAccount;
+	private String jobTitle;
+	private String department;
+	private String skills;
+	private long review;
+	private Date joiningDate;
+	
+	
+	
+}

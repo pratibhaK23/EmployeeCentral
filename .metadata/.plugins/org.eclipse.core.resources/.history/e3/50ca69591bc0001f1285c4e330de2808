@@ -1,0 +1,13 @@
+package com.pkslearning.service;
+
+
+
+import com.pkslearning.entity.Employee;
+
+public interface EmployeeService {
+	public Employee[] getEmployeesList();
+	public Employee getEmployee();
+	public String addEmployee(Employee newemployee);
+	public Employee updateEmployee();
+	public String removeEmployee();
+}
